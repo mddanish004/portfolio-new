@@ -20,7 +20,7 @@ const BLUR_FADE_DELAY = 0.04;
 
 type BlurFadeProps = {
   // ...
-  inViewMargin?: MarginType;
+  inViewMargin?: string;
 };
 
 export default function Page() {

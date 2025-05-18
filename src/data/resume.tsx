@@ -1,6 +1,17 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon } from "lucide-react";
 
+type WorkExperience = {
+  company: string;
+  logoUrl?: string;
+  title?: string;
+  href?: string;
+  badges?: string[];
+  start: string;
+  end?: string;
+  description?: string;
+};
+
 export const DATA = {
   name: "Danish",
   initials: "MDA",
@@ -64,8 +75,7 @@ export const DATA = {
     },
   },
 
-  work: [
-  ],
+  work: [] as WorkExperience[],
   education: [
     {
       school: "Governement College of Engineering and Ceramic Technology",

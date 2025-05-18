@@ -2,15 +2,16 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Dillion Verma",
-  initials: "DV",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  name: "Danish",
+  initials: "MDA",
+  url: "https://bento.me/mddanish004",
+  location: "Kolkata, India",
+  locationLink: "https://maps.app.goo.gl/Cs6k7XrYCLEecNdb7",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "Engineering undergrad & freelancer building PentaStudio. Full-stack web developer passionate about tech and innovation. Active on X.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    
+    "Currently pursuing my B.Tech in Information Technology at Government College of Engineering and Ceramic Technology, Kolkata (expected year of graduation: 2027), I’m a full-stack web developer specializing in end-to-end digital solutions for clients. In 2024, I co-founded  [Penta Studio](https://penta-studio.vercel.app/), a freelance IT solutions agency, with my peers to deliver tailored services to businesses. Passionate about technological innovation, I actively engage with the tech community on X, driven by a commitment to excellence and continuous growth.",
   avatarUrl: "/me.png",
   skills: [
     "React",

@@ -58,3 +58,9 @@ const BlurFade = ({
 };
 
 export default BlurFade;
+
+type MarginType =
+  | string
+  | `${string} ${string}`
+  | `${string} ${string} ${string}`
+  | `${string} ${string} ${string} ${string}`;

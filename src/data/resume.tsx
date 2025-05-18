@@ -65,8 +65,6 @@ export const DATA = {
   },
 
   work: [
-    
-    
   ],
   education: [
     {

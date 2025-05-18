@@ -8,8 +8,20 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
+// MarginType is not exported from framer-motion, so we define it here
+type MarginValue = string | number;
+type MarginType =
+  | MarginValue
+  | `${MarginValue} ${MarginValue}`
+  | `${MarginValue} ${MarginValue} ${MarginValue}`
+  | `${MarginValue} ${MarginValue} ${MarginValue} ${MarginValue}`;
 
 const BLUR_FADE_DELAY = 0.04;
+
+type BlurFadeProps = {
+  // ...
+  inViewMargin?: MarginType;
+};
 
 export default function Page() {
   return (

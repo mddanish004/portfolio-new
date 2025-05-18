@@ -201,22 +201,22 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
             <div className="space-y-3">
               <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                Contact
-              </div>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                Get in Touch
-              </h2>
-              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just send me a{" "}
-                <Link
-                  href="mailto:m.danishansari004@gmail.com"
-                  className="text-blue-500 hover:underline"
-                >
-                  Mail me
-                </Link>{" "}
-                and I&apos;ll respond as soon as possible.
-              </p>
-            </div>
+  Contact
+</div>
+<h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+  Get in Touch
+</h2>
+<p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+  I’m open to freelance opportunities or just a friendly chat! Feel free to drop me a{" "}
+  <Link
+    href="mailto:m.danishansari004@gmail.com"
+    className="text-blue-500 hover:underline"
+  >
+    mail 
+  </Link>{" "}
+  and I’ll get back to you promptly.
+</p>
+</div>
           </BlurFade>
         </div>
       </section>

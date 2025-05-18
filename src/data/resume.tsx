@@ -12,7 +12,7 @@ export const DATA = {
   summary:
     
     "Currently pursuing my B.Tech in Information Technology at Government College of Engineering and Ceramic Technology, Kolkata (expected year of graduation: 2027), I’m a full-stack web developer specializing in end-to-end digital solutions for clients. In 2024, I co-founded  [Penta Studio](https://penta-studio.vercel.app/), a freelance IT solutions agency, with my peers to deliver tailored services to businesses. Passionate about technological innovation, I actively engage with the tech community on X, driven by a commitment to excellence and continuous growth.",
-  avatarUrl: "/me.png",
+  avatarUrl: "/photo.png",
   skills: [
     "React",
     "Next.js",
